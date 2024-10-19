@@ -4,7 +4,7 @@ import os
 import textblob
 
 #os.environ["MAKERSUITE_API_KEY] = ""
-api = "AIzaSyCFIL-2qRWHrUqzyf_TN3A5IKQsVgB2zHg"
+api = "AIzaSyD4FLlHsBs4L8F5W1V7_jnyXZR46f4iUX4"
 genai.configure(api_key=api)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
